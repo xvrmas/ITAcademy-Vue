@@ -1,0 +1,86 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    max-width:1200px;
+    box-sizing: border-box;
+}
+.pare{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.header{
+    background: #000;
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .menu{
+        background: #2d4059 ;
+        display: flex;
+        flex-flow: row nowrap;
+        height: 100px;
+        align-items: center;
+    }
+    .logo{
+         background: #ea5455;
+         flex: 1 1 auto;
+         height: 30px;
+    } 
+    .nav{
+         background: #ea5455;
+         flex: 5 1 auto;
+         height: 30px;
+    }
+    .social{
+         background: #ea5455;
+         flex: 1 1 auto;
+         height: 30px;
+
+    }
+    .principal-text{
+        background: orange;
+    }
+    h1{
+        background: yellow;
+    }
+.section{
+    background: #000;
+    display: flex;
+}
+    .articles{
+        background: #4e4e6a;
+        flex: 2 1 auto;
+        display: flex;
+        flex-flow: wrap;
+    }
+    .article{
+        background: #5D8BF4;
+        flex: 1 1 40%;
+        }
+    .navegacio{
+        background: #DFF6FF;
+        flex: 1 1 100%;
+    }
+.aside{
+    background: red;
+    flex: 1 1 auto;
+}
+    .publicitat{
+        background: yellow;
+    }
+.footer{
+    background: #000;
+    justify-content: center;
+
+}
+    .peu{
+        background: yellow;
+        display: flex;
+    }
+
+
+@media  all and (max-width: 820px){
+    .section{
+        flex-direction:column;  
+        background: yellow;
+    }
+}

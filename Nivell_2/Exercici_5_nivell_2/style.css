@@ -1,0 +1,161 @@
+*{
+    margin: 5px;
+    padding: 12px;
+    max-width:1200px;
+    box-sizing: border-box;
+}
+.pare{
+    display: flex;
+    flex-flow: column ;
+}
+.header{
+    background: url(images/header.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow:column wrap;
+}
+    .menu{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .logo{
+        height:100px;
+    }     
+   .nav {
+        justify-content: space-around;
+        padding-left: 60px;
+        
+   }
+   .nav a{
+       flex-wrap: nowrap;
+       color: rgb(165, 163, 163);
+       padding:10px;
+       text-decoration: none;
+   }
+   .alinear{
+    
+    vertical-align: middle;
+    margin: 0px;
+   }
+   .nav a:hover{
+       color: black;
+   }
+    .social{
+      padding: 1px;
+      display: flex;
+      justify-items: flex-end;
+      flex-wrap: nowrap;
+
+    }
+    .social a:hover{
+        color: salmon;
+    }
+    img {
+        justify-content: left;
+        width: 100%; 
+        height: auto; 
+    }
+    .principal-text{
+        height: auto;
+    }
+    h1{
+        color: orange;
+        text-align: center ;
+    }
+.section{
+    background:rgb(218, 216, 216) ;
+    display: flex;
+    flex-wrap: nowrap;
+}
+    .articles{
+        padding: 0px;
+        flex: 2 1 auto;
+        display: flex;
+        flex-flow: wrap;
+  }
+    .article{
+        background:white;
+        padding: 10px;
+        margin: 5px;
+        flex: 1 1 40%;
+        flex-direction: column;         
+
+     }
+        .miniheader{
+            background: salmon;
+            color: white;
+        }
+        .text{
+            margin: 1px;
+            display: flex;
+        }
+        .article a{
+            color: rgb(160, 160, 160);
+            text-decoration: none;
+
+        }
+        .article a:hover{
+            color: rgb(0, 4, 7);
+        }
+    .navegacio{
+        flex: 1 1 100%;
+    }
+.aside{
+    
+    flex: 1 1 auto;
+}
+    .publicitat{
+    background: white;
+    }
+.footer{
+    background: #000;
+    justify-content: center;
+
+}
+    .peu{
+        background: yellow;
+        display: flex;
+    }
+
+
+@media  all and (max-width: 820px){
+    .section{
+        flex-direction:column; 
+        background: yellow;
+        
+    }
+    .menu{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+}
+@media all and (max-width: 600px){
+    .menu{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+    .logo{
+        width: 80%;
+        padding: 10px;    
+    }
+        .nav{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+               
+    }
+    .social{
+        width: 80%;
+
+    }
+    .articles{
+        flex-direction: column;
+    }
+
+}
