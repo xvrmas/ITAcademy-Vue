@@ -1,6 +1,6 @@
 *{
     margin: 5px;
-    padding: 12px;
+    padding: 10px;
     max-width:1200px;
     box-sizing: border-box;
 }
@@ -19,15 +19,22 @@
     .menu{
         display: flex;
         flex-wrap: nowrap;
-        align-items: center;
+        align-items:center;
     }
 
     .logo{
-        height:100px;
-    }     
+        display: flex;
+        justify-items: center;
+        flex-wrap: nowrap;
+    } 
+   .logo img{
+       width: 90px;
+       height: auto;
+   }  
    .nav {
+       display: flex;
         justify-content: space-around;
-        padding-left: 60px;
+        padding: 40px;
         
    }
    .nav a{
@@ -45,12 +52,16 @@
        color: black;
    }
     .social{
-      padding: 1px;
-      display: flex;
-      justify-items: flex-end;
-      flex-wrap: nowrap;
-
+        display: flex;
+        justify-items: center;
+        flex-wrap: nowrap;
+    } 
+    .social img{
+        width: 50px;
+       height: auto;
     }
+
+    
     .social a:hover{
         color: salmon;
     }
@@ -108,17 +119,11 @@
     
     flex: 1 1 auto;
 }
-    .publicitat{
-    background: white;
-    }
-.footer{
-    background: #000;
-    justify-content: center;
-
-}
+  
     .peu{
-        background: yellow;
+        background: rgb(245, 244, 244);
         display: flex;
+        justify-content: space-around;
     }
 
 
