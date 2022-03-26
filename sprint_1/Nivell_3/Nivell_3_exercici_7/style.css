@@ -70,6 +70,8 @@
     .text-capsalera{
         grid-area: text-header;
         color: orange;
+        position: relative;
+        animation: animacio 5s;
     }
 .section{
     grid-area: seccio;
@@ -186,6 +188,8 @@
     padding:10px;
 }
 @keyframes animacio {
-    from {top:200px}
-    to{top:10px; }
+    from {top:50px}
+    to{top: 0px; }
 }
+
+ 
