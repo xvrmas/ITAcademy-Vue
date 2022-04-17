@@ -9,6 +9,8 @@
     display: flex;
     flex-flow: column;
     flex-wrap: wrap;
+    align-self: center;
+    justify-self: center;
 }
 .header{
     background: url(images/header.jpg);
